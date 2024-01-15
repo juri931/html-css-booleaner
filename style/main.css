@@ -19,10 +19,16 @@ header img{
   font-size: 0.8em;
 }
 
+section span{
+  color: rgb(154, 154, 154);
+}
+
+/* Evidenziatore */
 #highlight{
   background-color: yellow;
 }
 
+/* Tabella */
 table{
   width: 100%;
   text-align: left;
@@ -36,6 +42,7 @@ thead th{
   background-color: rgb(177, 229, 242);
 }
 
+/* Footer */
 footer h3{
   color: rgb(154, 154, 154);
 }
