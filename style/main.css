@@ -5,6 +5,10 @@
   background-image: url(img/pattern.png);
 }
 
+header img{
+  height: 50px;
+}
+
 /* Author */
 #author{
   color: rgb(125, 205, 240);
