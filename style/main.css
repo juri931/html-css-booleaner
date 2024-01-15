@@ -31,3 +31,16 @@ thead th{
 .color{
   background-color: rgb(177, 229, 242);
 }
+
+footer h3{
+  color: rgb(154, 154, 154);
+}
+
+footer img{
+  width: 200px;
+  position: absolute;
+}
+
+.text-img{
+  position: relative;
+}
