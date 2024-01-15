@@ -1,0 +1,16 @@
+/* Banner layout */
+.banner{
+  height: 100px;
+  background-color: rgb(78, 160, 255);
+  background-image: url(img/pattern.png);
+}
+
+/* Author */
+#author{
+  color: rgb(125, 205, 240);
+}
+
+/* Date */
+#date{
+  font-size: 0.8em;
+}
