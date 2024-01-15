@@ -14,3 +14,20 @@
 #date{
   font-size: 0.8em;
 }
+
+#highlight{
+  background-color: yellow;
+}
+
+table{
+  width: 100%;
+  text-align: left;
+}
+
+thead th{
+  background-color: rgb(32, 169, 229);
+}
+
+.color{
+  background-color: rgb(177, 229, 242);
+}
