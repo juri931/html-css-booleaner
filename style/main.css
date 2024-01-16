@@ -1,12 +1,33 @@
-/* Banner layout */
-.banner{
-  height: 100px;
-  background-color: rgb(78, 160, 255);
-  background-image: url(img/pattern.png);
+/* Formattazione pagina */
+*{
+  margin: 0;
+  padding: 0;
 }
 
-header img{
-  height: 50px;
+h1{
+  font-size: 2em;
+  font-weight: bolder;
+}
+
+main{
+  padding: 10px;
+}
+
+/* Banner layout */
+header{
+  background-image: url(img/pattern.png);
+  background-color: rgb(78, 160, 255);
+  background-size: 50%;
+}
+
+header .logo{
+  padding-top: 50px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+}
+
+header .logo img{
+  width: 200px;
 }
 
 /* Author */
@@ -23,35 +44,67 @@ section span{
   color: rgb(154, 154, 154);
 }
 
-/* Evidenziatore */
-#highlight{
-  background-color: yellow;
+.caption{
+  font-size: 0.9em;
+}
+
+p{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+ul{
+  margin-left: 15px;
+  margin-bottom: 20px;
 }
 
 /* Tabella */
 table{
   width: 100%;
-  text-align: left;
+  border-collapse: collapse;
 }
 
-thead th{
+thead{
   background-color: rgb(32, 169, 229);
+  color: white;
 }
 
-.color{
+.long-text{
+  width: 60%;
+}
+
+.odd{
   background-color: rgb(177, 229, 242);
 }
 
 /* Footer */
+footer{
+  padding: 10px;
+}
+
 footer h3{
   color: rgb(154, 154, 154);
 }
 
-footer img{
-  width: 200px;
-  position: absolute;
+.footer-img-1{
+  background-image: url(/style/img/monitor.jpg);
+  background-size: cover;
+  width: 300px;
+  height: 200px;
+  position: relative;
+}
+
+.footer-img-2{
+  background-image: url(/style/img/graph.jpg);
+  background-size: cover;
+  width: 300px;
+  height: 200px;
+  position: relative;
 }
 
 .text-img{
-  position: relative;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  position: absolute;
 }

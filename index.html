@@ -6,20 +6,24 @@
   <link rel="stylesheet" href="style/main.css">
   <title>The Booleaner</title>
 </head>
+
 <body>
 
   <!-- Banner -->
   <header>
     <div class="banner">
-      <img src="/style/img/logo.svg" alt="">
+      <div class="logo">
+        <img src="/style/img/logo.svg" alt="logo">
+      </div>
     </div>
   </header>
 
   <!-- Titolo + autore + data -->
   <main>
+    
     <section>
       <h1>Internet deve essere al servizio del "bene  pubblico": il manifesto di Tim Berners-Lee</h1>
-      <span>Scritto da <stron id="author">The Booleaner</strong></span>
+      <span>Scritto da <strong id="author">The Booleaner</strong></span>
       <br>
       <span id="date">il 10/10/2020</span>
     </section>
@@ -27,22 +31,22 @@
     <br>
     
     <!-- Immagini articolo -->
-    <img src="/style/img/tim-1.jpg" alt="tim-1" style="width: 400px;" height="311.88px">
+    <div class="top-photos">
+      <img src="/style/img/tim-1.jpg" alt="tim-1"   style="width: 400px;" height="311.88px">
+      
+      <img src="/style/img/tim-2.jpg" alt="tim-2"   style="width: 400px;">
+    </div>
     
-    <img src="/style/img/tim-2.jpg" alt="tim-2" style="width: 400px;">
+    <span class="caption"><i>1st Photo: John S. and James L. Knight Foundation, by Scott Henrichsen</i></span>
     
     <br>
     
-    <span><i>1st Photo: John S. and James L. Knight Foundation, by Scott Henrichsen</i></span>
-    
-    <br>
-    
-    <span><i>2nd Photo: Wikimedia, by Paul Clarke</i></span>
+    <span class="caption"><i>2nd Photo: Wikimedia, by Paul Clarke</i></span>
     
     <!-- Testo primario -->
     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore
     magna aliquam erat volutpat. Ut wisi enim
-    ad minim veniam. quis nostrud <span id="highlight">exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</span> Duis
+    ad minim veniam. quis nostrud <mark>exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</mark> Duis
     autem vel eum iriure dolor in hendrerit in
     vulputate velit esse molestie consequat. vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto
     odio dignissim qui blandit praesent luptatum
@@ -58,16 +62,18 @@
     <table>
       
       <thead>
-        <th>Lorem ipsum dolor</th>
-        <th>Lorem ipsum dolor</th>
-        <th>Lorem ipsum dolor</th>
+        <tr>
+          <th>Lorem ipsum dolor</th>
+          <th>Lorem ipsum dolor</th>
+          <th>Lorem ipsum dolor</th>
+        </tr>
       </thead>
       
       <tbody>
-        <tr class="color">
+        <tr class="odd">
           <td>Lorem ipsum dolor</td>
           <td>Lorem ipsum dolor</td>
-          <td>Lorem ipsum dolor, sit amet consectetur   adipisicing elit. Maiores debitis modi accusamus  nisi quia quas architecto eius rem molestias   consectetur accusantium deleniti repellat labore  error iste, necessitatibus sint quam cumque?</td>
+          <td class="long-text">Lorem ipsum dolor, sit amet consectetur   adipisicing elit. Maiores debitis modi accusamus  nisi quia quas architecto eius rem molestias   consectetur accusantium deleniti repellat labore  error iste, necessitatibus sint quam cumque?</td>
         </tr>
 
         <tr>
@@ -78,7 +84,7 @@
           </td>
         </tr>
 
-        <tr class="color">
+        <tr class="odd">
           <td>Lorem ipsum dolor</td>
           <td>Lorem ipsum dolor</td>
           <td>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores debitis modi accusamus nisi quia quas architecto
@@ -89,7 +95,7 @@
     </table>
 
     <!-- Testo secondario -->
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt ducimus placeat excepturi corporis atque neque quis, sapiente maxime quasi! Exercitationem recusandae nulla architecto voluptatibus iste sunt perspiciatis numquam vero excepturi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, <span id="highlight">praesentium sunt provident ab eaque consectetur</span> tempore dolor autem ratione tempora enim eius suscipit, modi harum quis vero dolorem at vel.</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt ducimus placeat excepturi corporis atque neque quis, sapiente maxime quasi! Exercitationem recusandae nulla architecto voluptatibus iste sunt perspiciatis numquam vero excepturi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, <mark>praesentium sunt provident ab eaque consectetur</mark> tempore dolor autem ratione tempora enim eius suscipit, modi harum quis vero dolorem at vel.</p>
 
   </main>
 
@@ -98,13 +104,13 @@
     <h3>Potrebbero interessarti</h3>
     <br>
     
-    <div>
-      <img src="/style/img/monitor.jpg" alt="monitor">
+    <div class="footer-img-1">
       <span class="text-img">Lorem ipsum dolor</span>
     </div>
 
-    <div>
-      <img src="/style/img/graph.jpg" alt="graph">
+    <br>
+
+    <div class="footer-img-2">
       <span class="text-img">Lorem ipsum dolor</span>
     </div>
 
